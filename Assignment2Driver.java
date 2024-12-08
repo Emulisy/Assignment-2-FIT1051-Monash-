@@ -231,11 +231,7 @@ public class Assignment2Driver
     public static boolean validatePassword (String passWord)
     {
         boolean bool = false;
-        if (passWord.length() < 7)
-        {
-            bool = false;
-        }
-        else
+        if (passWord.length() >= 7)
         {
             boolean hasLower = false;
             boolean hasUpper = false;
